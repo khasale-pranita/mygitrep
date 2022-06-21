@@ -6,7 +6,7 @@ Resources:
     Type: AWS::S3::Bucket
     Description: Creating Amazon S3 bucket from CloudFormation
     Properties:
-      BucketName: samples3bucket
+      BucketName: project1s3bucket
 Outputs:
   S3Bucket:
     Description: Bucket Created using this template.

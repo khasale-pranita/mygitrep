@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-                sh "aws cloudformation create stack --stack-name s3bucket --template-body https://github.com/khasale-pranita/mygitrep/blob/master/s3bucket.yml --region "us-east-1""
+                sh "aws cloudformation create stack --stack-name s3bucket --template-body https://github.com/khasale-pranita/mygitrep/blob/master/s3bucket.yml --region us-east-1"
 
             }
 
